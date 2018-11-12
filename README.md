@@ -30,12 +30,10 @@
 
 * **2017-05-29 : v0.9 beta Release (프리뷰 및 오픈 테스트를 위해 공개)**
 
-* [버그를 발견하여 알려주시거나 이슈를 제기하여주시면 감사의 선물을 드리겠습니다](https://github.com/SamsungSDS-Contest/Guide/issues)
-
 
 ## BasicBot API Documentation
 
-* BasicBot API Documentation 웹사이트 : [https://samsungsds-contest.github.io/Guide/](https://samsungsds-contest.github.io/Guide/)
+* BasicBot API Documentation 웹사이트 : [https://samsungsds-contest.github.io/Guide/]
 
 # 상세 설명
 
@@ -49,7 +47,7 @@
 |docs\\JAVA|BasicBot API Documentation - JAVA 버전|
 |Doxygen|BasicBot API Documentation 웹사이트 생성 자동화를 위한 Doxygen 설정 파일|
 
-## BasicBot 디펜던시 및 권장 개발환경 ([wiki 에 상세 가이드](https://github.com/SamsungSDS-Contest/Guide/wiki))
+## BasicBot 디펜던시 및 권장 개발환경 ([wiki 에 상세 가이드](https://github.com/TeamSAIDA/Guide/wiki))
 
 * StarCraft : Brood War 1.16.1.1
 
