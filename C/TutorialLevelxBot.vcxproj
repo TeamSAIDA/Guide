@@ -1,0 +1,140 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="TutorialLevelxBot\BuildManager.cpp" />
+    <ClCompile Include="TutorialLevelxBot\BuildOrderQueue.cpp" />
+    <ClCompile Include="TutorialLevelxBot\Common.cpp" />
+    <ClCompile Include="TutorialLevelxBot\Config.cpp" />
+    <ClCompile Include="TutorialLevelxBot\ConstructionManager.cpp" />
+    <ClCompile Include="TutorialLevelxBot\ConstructionPlaceFinder.cpp" />
+    <ClCompile Include="TutorialLevelxBot\ConstructionTask.cpp" />
+    <ClCompile Include="TutorialLevelxBot\GameCommander.cpp" />
+    <ClCompile Include="TutorialLevelxBot\InformationManager.cpp" />
+    <ClCompile Include="TutorialLevelxBot\main.cpp" />
+    <ClCompile Include="TutorialLevelxBot\MapTools.cpp" />
+    <ClCompile Include="TutorialLevelxBot\MetaType.cpp" />
+    <ClCompile Include="TutorialLevelxBot\Micro.cpp" />
+    <ClCompile Include="TutorialLevelxBot\MyBotModule.cpp" />
+    <ClCompile Include="TutorialLevelxBot\ScoutManager.cpp" />
+    <ClCompile Include="TutorialLevelxBot\StrategyManager.cpp" />
+    <ClCompile Include="TutorialLevelxBot\UnitData.cpp" />
+    <ClCompile Include="TutorialLevelxBot\UXManager.cpp" />
+    <ClCompile Include="TutorialLevelxBot\WorkerData.cpp" />
+    <ClCompile Include="TutorialLevelxBot\WorkerManager.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="TutorialLevelxBot\BuildManager.h" />
+    <ClInclude Include="TutorialLevelxBot\BuildOrderQueue.h" />
+    <ClInclude Include="TutorialLevelxBot\Common.h" />
+    <ClInclude Include="TutorialLevelxBot\Config.h" />
+    <ClInclude Include="TutorialLevelxBot\ConstructionManager.h" />
+    <ClInclude Include="TutorialLevelxBot\ConstructionPlaceFinder.h" />
+    <ClInclude Include="TutorialLevelxBot\ConstructionTask.h" />
+    <ClInclude Include="TutorialLevelxBot\GameCommander.h" />
+    <ClInclude Include="TutorialLevelxBot\InformationManager.h" />
+    <ClInclude Include="TutorialLevelxBot\MapTools.h" />
+    <ClInclude Include="TutorialLevelxBot\MetaType.h" />
+    <ClInclude Include="TutorialLevelxBot\Micro.h" />
+    <ClInclude Include="TutorialLevelxBot\MyBotModule.h" />
+    <ClInclude Include="TutorialLevelxBot\ScoutManager.h" />
+    <ClInclude Include="TutorialLevelxBot\StrategyManager.h" />
+    <ClInclude Include="TutorialLevelxBot\UnitData.h" />
+    <ClInclude Include="TutorialLevelxBot\UXManager.h" />
+    <ClInclude Include="TutorialLevelxBot\WorkerData.h" />
+    <ClInclude Include="TutorialLevelxBot\WorkerManager.h" />
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{A6D3832B-ABCE-4ADE-B1B5-32EB086A4E65}</ProjectGuid>
+    <RootNamespace>TutorialLevelxBot</RootNamespace>
+    <Keyword>Win32Proj</Keyword>
+    <ProjectName>TutorialLevelxBot_swarm</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.30319.1</_ProjectFileVersion>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</LinkIncremental>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <OutDir>$(SolutionDir)$(Configuration)\$(ProjectName)\</OutDir>
+    <IntDir>$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>$(BWAPI_DIR)/include;$(BWTA_DIR)/include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>NOMINMAX;WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>false</MinimalRebuild>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+    </ClCompile>
+    <PreLinkEvent />
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Console</SubSystem>
+      <TargetMachine>MachineX86</TargetMachine>
+      <AdditionalDependencies>Advapi32.lib;$(BWAPI_DIR)/lib/BWAPId.lib;$(BWAPI_DIR)/lib/BWAPIClientd.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <Optimization>MaxSpeed</Optimization>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <AdditionalIncludeDirectories>C:/StarCraft/bwlibrary/BWAPI412/include;C:/StarCraft/bwlibrary/BWTA22/include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>NOMINMAX;WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+    </ClCompile>
+    <PreLinkEvent />
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Console</SubSystem>
+      <OptimizeReferences>true</OptimizeReferences>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <TargetMachine>MachineX86</TargetMachine>
+      <AdditionalDependencies>Advapi32.lib;ws2_32.lib;C:/StarCraft/bwlibrary/BWAPI412/lib/BWAPI.lib;C:/StarCraft/bwlibrary/BWAPI412/lib/BWAPIClient.lib;C:/StarCraft/bwlibrary/BWTA22/lib/BWTA.lib;C:/StarCraft/bwlibrary/BWTA22/lib/libCGAL-vc120-mt-4.4.lib;C:/StarCraft/bwlibrary/BWTA22/lib/libboost_thread-vc120-mt-1_56.lib;C:/StarCraft/bwlibrary/BWTA22/lib/libboost_system-vc120-mt-1_56.lib;C:/StarCraft/bwlibrary/BWTA22/lib/libboost_filesystem-vc120-mt-1_56.lib;C:/StarCraft/bwlibrary/BWTA22/lib/libgmp-10.lib;C:/StarCraft/bwlibrary/BWTA22/lib/libmpfr-4.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

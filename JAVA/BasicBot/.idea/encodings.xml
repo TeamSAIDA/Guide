@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/src/BuildManager.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/BuildOrderItem.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/BuildOrderQueue.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/CommandUtil.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/Common.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/Config.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/ConstructionManager.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/ConstructionPlaceFinder.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/ConstructionTask.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/DistanceMap.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/GameCommander.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/InformationManager.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/Main.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/MapGrid.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/MapTools.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/MetaType.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/MyBotModule.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/ScoutManager.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/StrategyManager.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/UXManager.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/UnitData.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/UnitInfo.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/WorkerData.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/WorkerManager.java" charset="UTF-8" />
+  </component>
+</project>

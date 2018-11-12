@@ -1,0 +1,47 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Express 2013 for Windows Desktop
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "BasicBot", "BasicBot.vcxproj", "{AE3B9DC4-5FBB-4B57-8AB4-0D84D8649D78}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TutorialLevel1Bot_BWAPI", "TutorialLevel1Bot.vcxproj", "{DA728285-0048-42CA-B61D-726AA2781B97}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TutorialLevel2Bot_EnemyRace", "TutorialLevel2Bot.vcxproj", "{B3561C0E-D386-461C-BE09-6A3BA89D8F8D}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TutorialLevel3Bot_MineralWorker", "TutorialLevel3Bot.vcxproj", "{CC4C1593-7E36-4B49-ACF8-A01B0C97CBC9}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TutorialLevel4Bot_BuildAndConstruction", "TutorialLevel4Bot.vcxproj", "{56D37580-7068-4F14-9991-C919D47FFDC7}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TutorialLevel5Bot_DarkTemplarRushBot", "TutorialLevel5Bot.vcxproj", "{D95F2F46-1548-4B6E-82F0-D62AA18B266A}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TutorialLevel0Bot_HelloStarcraft", "TutorialLevel0Bot.vcxproj", "{BD3CE6A5-2E6B-43CD-8B4A-54BA41256F74}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "BuildServerCode", "BuildServerCode.vcxproj", "{741450DE-854E-44A9-8B28-A27001351D3A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AE3B9DC4-5FBB-4B57-8AB4-0D84D8649D78}.Release|Win32.ActiveCfg = Release|Win32
+		{AE3B9DC4-5FBB-4B57-8AB4-0D84D8649D78}.Release|Win32.Build.0 = Release|Win32
+		{DA728285-0048-42CA-B61D-726AA2781B97}.Release|Win32.ActiveCfg = Release|Win32
+		{DA728285-0048-42CA-B61D-726AA2781B97}.Release|Win32.Build.0 = Release|Win32
+		{B3561C0E-D386-461C-BE09-6A3BA89D8F8D}.Release|Win32.ActiveCfg = Release|Win32
+		{B3561C0E-D386-461C-BE09-6A3BA89D8F8D}.Release|Win32.Build.0 = Release|Win32
+		{CC4C1593-7E36-4B49-ACF8-A01B0C97CBC9}.Release|Win32.ActiveCfg = Release|Win32
+		{CC4C1593-7E36-4B49-ACF8-A01B0C97CBC9}.Release|Win32.Build.0 = Release|Win32
+		{56D37580-7068-4F14-9991-C919D47FFDC7}.Release|Win32.ActiveCfg = Release|Win32
+		{56D37580-7068-4F14-9991-C919D47FFDC7}.Release|Win32.Build.0 = Release|Win32
+		{D95F2F46-1548-4B6E-82F0-D62AA18B266A}.Release|Win32.ActiveCfg = Release|Win32
+		{D95F2F46-1548-4B6E-82F0-D62AA18B266A}.Release|Win32.Build.0 = Release|Win32
+		{BD3CE6A5-2E6B-43CD-8B4A-54BA41256F74}.Release|Win32.ActiveCfg = Release|Win32
+		{BD3CE6A5-2E6B-43CD-8B4A-54BA41256F74}.Release|Win32.Build.0 = Release|Win32
+		{741450DE-854E-44A9-8B28-A27001351D3A}.Release|Win32.ActiveCfg = Release|Win32
+		{741450DE-854E-44A9-8B28-A27001351D3A}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

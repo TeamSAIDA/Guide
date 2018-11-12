@@ -1,0 +1,25 @@
+var searchData=
+[
+  ['badunitstoremove',['badUnitstoRemove',['../class_unit_data.html#ae8da6ad92a10bd01ab8383b30beb60df',1,'UnitData']]],
+  ['blocking',['blocking',['../class_build_order_item.html#a399dabdfbbeb852b991510633b82e67a',1,'BuildOrderItem']]],
+  ['blue',['blue',['../class_u_x_manager.html#aece82cc530e79aeae0f3abce5aba04c2',1,'UXManager']]],
+  ['botauthors',['BotAuthors',['../class_config.html#a3fe177e1e2dcdc2106423889dc1e57af',1,'Config']]],
+  ['botname',['BotName',['../class_config.html#a7df8e284669897c9051411738f71cbd8',1,'Config']]],
+  ['broodwar',['Broodwar',['../class_my_bot_module.html#a78a214bbe0430a3e844a02a609ad92d9',1,'MyBotModule']]],
+  ['brown',['brown',['../class_u_x_manager.html#a05f9217f18171a154bf72b6d86b2aaf1',1,'UXManager']]],
+  ['build',['Build',['../enum_worker_data_1_1_worker_job.html#a57cf7cb5a452bf4519079c04f76cab5d',1,'WorkerData::WorkerJob']]],
+  ['buildcommandgiven',['buildCommandGiven',['../class_construction_task.html#ac05db333bf7d21bad9541885e0606cf6',1,'ConstructionTask']]],
+  ['buildingdefensetowerspacing',['BuildingDefenseTowerSpacing',['../class_config.html#ac4e02203c4d1a5a3a5395d67cec78231',1,'Config']]],
+  ['buildingpylonearlystagespacing',['BuildingPylonEarlyStageSpacing',['../class_config.html#acd70a23b28dc440e167baadb39484c51',1,'Config']]],
+  ['buildingpylonspacing',['BuildingPylonSpacing',['../class_config.html#aca7af8c7ad684d1f74cce460069560d6',1,'Config']]],
+  ['buildingresourcedepotspacing',['BuildingResourceDepotSpacing',['../class_config.html#af78a8034aec1f33abbfe3630ce3c4bd2',1,'Config']]],
+  ['buildingspacing',['BuildingSpacing',['../class_config.html#a042d68b59f59836919cc904cc632dd1f',1,'Config']]],
+  ['buildingsqueued',['buildingsQueued',['../class_construction_manager.html#a99f434440f5eca7efa1cecbddcf6bae7',1,'ConstructionManager']]],
+  ['buildingsupplydepotspacing',['BuildingSupplyDepotSpacing',['../class_config.html#af4c48b8d8520edbe7619cf6d23f9be70',1,'Config']]],
+  ['buildingunit',['buildingUnit',['../class_construction_task.html#aef2ac2248097c46f2e4e694b23b64d7c',1,'ConstructionTask']]],
+  ['buildmanager',['BuildManager',['../class_build_manager.html',1,'']]],
+  ['buildorderitem',['BuildOrderItem',['../class_build_order_item.html',1,'BuildOrderItem'],['../class_build_order_item.html#a2ec6637aad80f7bfdb355571bb94236b',1,'BuildOrderItem.BuildOrderItem(MetaType metaType, int priority, boolean blocking, int producerID)'],['../class_build_order_item.html#a4eb912e051422a08d4e3aeeaeada62a7',1,'BuildOrderItem.BuildOrderItem(MetaType metaType, int priority, boolean blocking)'],['../class_build_order_item.html#a7d85f111a4ded6c4ceb907b3fb6f062d',1,'BuildOrderItem.BuildOrderItem(MetaType metaType, int priority)'],['../class_build_order_item.html#a82757ec90fdbf6306382668a7368edac',1,'BuildOrderItem.BuildOrderItem(MetaType metaType)'],['../class_build_order_item.html#af7d7e8c41091efeda14cad7c632ba65c',1,'BuildOrderItem.BuildOrderItem(MetaType metaType, TilePosition seedLocation, int priority, boolean blocking, int producerID)'],['../class_build_order_item.html#a2d74b1accd851c14e69fa6c4c48e83df',1,'BuildOrderItem.BuildOrderItem(MetaType metaType, TilePosition seedLocation)'],['../class_build_order_item.html#a328dbbf30f71e99d7a9f68640a004dbc',1,'BuildOrderItem.BuildOrderItem(MetaType metaType, TilePosition seedLocation, int priority)'],['../class_build_order_item.html#ae18d95f3fee138a81d449f399b77d4fe',1,'BuildOrderItem.BuildOrderItem(MetaType metaType, SeedPositionStrategy seedPositionStrategy, int priority, boolean blocking, int producerID)'],['../class_build_order_item.html#a6a678d3a4fc8537e5976551b5cc81cd0',1,'BuildOrderItem.BuildOrderItem(MetaType metaType, SeedPositionStrategy seedPositionStrategy)'],['../class_build_order_item.html#a42b1b44d5eb36da93d2ca8cf426b201b',1,'BuildOrderItem.BuildOrderItem(MetaType metaType, SeedPositionStrategy seedPositionStrategy, int priority)']]],
+  ['buildorderqueue',['BuildOrderQueue',['../class_build_order_queue.html',1,'BuildOrderQueue'],['../class_build_order_queue.html#a046cdbd06bb730f1f9161116cdae2281',1,'BuildOrderQueue.BuildOrderQueue()']]],
+  ['buildqueue',['buildQueue',['../class_build_manager.html#a9b87bfaa262a4c4ab559e4fe89605f67',1,'BuildManager']]],
+  ['bullettypename',['bulletTypeName',['../class_u_x_manager.html#ab264c670f254ca81ff06622097ac5200',1,'UXManager']]]
+];

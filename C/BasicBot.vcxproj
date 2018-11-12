@@ -1,0 +1,140 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{AE3B9DC4-5FBB-4B57-8AB4-0D84D8649D78}</ProjectGuid>
+    <RootNamespace>BasicBot</RootNamespace>
+    <Keyword>Win32Proj</Keyword>
+    <ProjectName>BasicBot</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.30319.1</_ProjectFileVersion>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</LinkIncremental>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <OutDir>$(SolutionDir)$(Configuration)\$(ProjectName)\</OutDir>
+    <IntDir>$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>$(BWAPI_DIR)/include;$(BWTA_DIR)/include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>NOMINMAX;WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>false</MinimalRebuild>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+    </ClCompile>
+    <PreLinkEvent />
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Console</SubSystem>
+      <TargetMachine>MachineX86</TargetMachine>
+      <AdditionalDependencies>Advapi32.lib;$(BWAPI_DIR)/lib/BWAPId.lib;$(BWAPI_DIR)/lib/BWAPIClientd.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <Optimization>MaxSpeed</Optimization>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <AdditionalIncludeDirectories>C:/StarCraft/bwlibrary/BWAPI412/include;C:/StarCraft/bwlibrary/BWTA22/include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>NOMINMAX;WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+    </ClCompile>
+    <PreLinkEvent />
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Console</SubSystem>
+      <OptimizeReferences>true</OptimizeReferences>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <TargetMachine>MachineX86</TargetMachine>
+      <AdditionalDependencies>Advapi32.lib;ws2_32.lib;C:/StarCraft/bwlibrary/BWAPI412/lib/BWAPI.lib;C:/StarCraft/bwlibrary/BWAPI412/lib/BWAPIClient.lib;C:/StarCraft/bwlibrary/BWTA22/lib/BWTA.lib;C:/StarCraft/bwlibrary/BWTA22/lib/libCGAL-vc120-mt-4.4.lib;C:/StarCraft/bwlibrary/BWTA22/lib/libboost_thread-vc120-mt-1_56.lib;C:/StarCraft/bwlibrary/BWTA22/lib/libboost_system-vc120-mt-1_56.lib;C:/StarCraft/bwlibrary/BWTA22/lib/libboost_filesystem-vc120-mt-1_56.lib;C:/StarCraft/bwlibrary/BWTA22/lib/libgmp-10.lib;C:/StarCraft/bwlibrary/BWTA22/lib/libmpfr-4.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="BasicBot\ConstructionTask.cpp" />
+    <ClCompile Include="BasicBot\ConstructionManager.cpp" />
+    <ClCompile Include="BasicBot\ConstructionPlaceFinder.cpp" />
+    <ClCompile Include="BasicBot\BuildOrderQueue.cpp" />
+    <ClCompile Include="BasicBot\Common.cpp" />
+    <ClCompile Include="BasicBot\Config.cpp" />
+    <ClCompile Include="BasicBot\GameCommander.cpp" />
+    <ClCompile Include="BasicBot\InformationManager.cpp" />
+    <ClCompile Include="BasicBot\MapTools.cpp" />
+    <ClCompile Include="BasicBot\MetaType.cpp" />
+    <ClCompile Include="BasicBot\CommandUtil.cpp" />
+    <ClCompile Include="BasicBot\MyBotModule.cpp" />
+    <ClCompile Include="BasicBot\main.cpp" />
+    <ClCompile Include="BasicBot\BuildManager.cpp" />
+    <ClCompile Include="BasicBot\ScoutManager.cpp" />
+    <ClCompile Include="BasicBot\StrategyManager.cpp" />
+    <ClCompile Include="BasicBot\UnitData.cpp" />
+    <ClCompile Include="BasicBot\UXManager.cpp" />
+    <ClCompile Include="BasicBot\WorkerData.cpp" />
+    <ClCompile Include="BasicBot\WorkerManager.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="BasicBot\ConstructionTask.h" />
+    <ClInclude Include="BasicBot\ConstructionManager.h" />
+    <ClInclude Include="BasicBot\ConstructionPlaceFinder.h" />
+    <ClInclude Include="BasicBot\BuildOrderQueue.h" />
+    <ClInclude Include="BasicBot\Common.h" />
+    <ClInclude Include="BasicBot\Config.h" />
+    <ClInclude Include="BasicBot\GameCommander.h" />
+    <ClInclude Include="BasicBot\InformationManager.h" />
+    <ClInclude Include="BasicBot\MapTools.h" />
+    <ClInclude Include="BasicBot\MetaType.h" />
+    <ClInclude Include="BasicBot\CommandUtil.h" />
+    <ClInclude Include="BasicBot\MyBotModule.h" />
+    <ClInclude Include="BasicBot\BuildManager.h" />
+    <ClInclude Include="BasicBot\ScoutManager.h" />
+    <ClInclude Include="BasicBot\StrategyManager.h" />
+    <ClInclude Include="BasicBot\UnitData.h" />
+    <ClInclude Include="BasicBot\UXManager.h" />
+    <ClInclude Include="BasicBot\WorkerData.h" />
+    <ClInclude Include="BasicBot\WorkerManager.h" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

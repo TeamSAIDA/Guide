@@ -1,0 +1,50 @@
+# Compiled files
+
+*.slo
+*.lo
+*.o
+*.obj
+*.tlog
+*.so
+*.dylib
+*.dll
+*.lai
+*.la
+*.a
+*.lib
+*.log
+*.lastbuildstate
+
+# Executables
+
+*.out
+*.app
+*.exe
+
+# Other
+
+*.exp
+*.pdb
+*.ilk
+
+# VC++
+
+*.htm
+*.dep
+*.idb
+*.pdb
+*.ncb
+*.sdf
+*.opensdf
+*.suo
+
+
+# VC++ Directory
+
+Release
+Debug
+
+# Eclipse Directory
+
+bin
+bwapi-data

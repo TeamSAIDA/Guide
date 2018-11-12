@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component inheritJdk="true">
+	<exclude-output/>
+	<contentEntry url="file://$MODULE_DIR$"/>
+	<lib name="bwmirror_v2_5.jar" scope="COMPILE">
+		<srcroot url="jar://C:/StarCraft/bwlibrary/BWMirror25-src/BWMirror-2.5.zip!/"/>
+		<relative-module-cls project-related="jar://$PROJECT_DIR$/lib/bwmirror_v2_5.jar!/"/>
+	</lib>
+</component>

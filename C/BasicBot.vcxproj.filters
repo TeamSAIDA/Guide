@@ -1,0 +1,138 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="BasicBot\main.cpp">
+      <Filter>BotClient</Filter>
+    </ClCompile>
+    <ClCompile Include="BasicBot\MyBotModule.cpp">
+      <Filter>BotClient</Filter>
+    </ClCompile>
+    <ClCompile Include="BasicBot\BuildManager.cpp">
+      <Filter>BotSource</Filter>
+    </ClCompile>
+    <ClCompile Include="BasicBot\CommandUtil.cpp">
+      <Filter>BotSource</Filter>
+    </ClCompile>
+    <ClCompile Include="BasicBot\ConstructionManager.cpp">
+      <Filter>BotSource</Filter>
+    </ClCompile>
+    <ClCompile Include="BasicBot\ConstructionPlaceFinder.cpp">
+      <Filter>BotSource</Filter>
+    </ClCompile>
+    <ClCompile Include="BasicBot\GameCommander.cpp">
+      <Filter>BotSource</Filter>
+    </ClCompile>
+    <ClCompile Include="BasicBot\InformationManager.cpp">
+      <Filter>BotSource</Filter>
+    </ClCompile>
+    <ClCompile Include="BasicBot\ScoutManager.cpp">
+      <Filter>BotSource</Filter>
+    </ClCompile>
+    <ClCompile Include="BasicBot\StrategyManager.cpp">
+      <Filter>BotSource</Filter>
+    </ClCompile>
+    <ClCompile Include="BasicBot\UXManager.cpp">
+      <Filter>BotSource</Filter>
+    </ClCompile>
+    <ClCompile Include="BasicBot\WorkerManager.cpp">
+      <Filter>BotSource</Filter>
+    </ClCompile>
+    <ClCompile Include="BasicBot\MapTools.cpp">
+      <Filter>BotSource\DataStructure</Filter>
+    </ClCompile>
+    <ClCompile Include="BasicBot\MetaType.cpp">
+      <Filter>BotSource\DataStructure</Filter>
+    </ClCompile>
+    <ClCompile Include="BasicBot\UnitData.cpp">
+      <Filter>BotSource\DataStructure</Filter>
+    </ClCompile>
+    <ClCompile Include="BasicBot\WorkerData.cpp">
+      <Filter>BotSource\DataStructure</Filter>
+    </ClCompile>
+    <ClCompile Include="BasicBot\ConstructionTask.cpp">
+      <Filter>BotSource\DataStructure</Filter>
+    </ClCompile>
+    <ClCompile Include="BasicBot\BuildOrderQueue.cpp">
+      <Filter>BotSource\DataStructure</Filter>
+    </ClCompile>
+    <ClCompile Include="BasicBot\Common.cpp">
+      <Filter>BotSource\CommonUtil</Filter>
+    </ClCompile>
+    <ClCompile Include="BasicBot\Config.cpp">
+      <Filter>BotSource\CommonUtil</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="BasicBot\MyBotModule.h">
+      <Filter>BotClient</Filter>
+    </ClInclude>
+    <ClInclude Include="BasicBot\BuildManager.h">
+      <Filter>BotSource</Filter>
+    </ClInclude>
+    <ClInclude Include="BasicBot\CommandUtil.h">
+      <Filter>BotSource</Filter>
+    </ClInclude>
+    <ClInclude Include="BasicBot\ConstructionManager.h">
+      <Filter>BotSource</Filter>
+    </ClInclude>
+    <ClInclude Include="BasicBot\ConstructionPlaceFinder.h">
+      <Filter>BotSource</Filter>
+    </ClInclude>
+    <ClInclude Include="BasicBot\GameCommander.h">
+      <Filter>BotSource</Filter>
+    </ClInclude>
+    <ClInclude Include="BasicBot\InformationManager.h">
+      <Filter>BotSource</Filter>
+    </ClInclude>
+    <ClInclude Include="BasicBot\ScoutManager.h">
+      <Filter>BotSource</Filter>
+    </ClInclude>
+    <ClInclude Include="BasicBot\StrategyManager.h">
+      <Filter>BotSource</Filter>
+    </ClInclude>
+    <ClInclude Include="BasicBot\UXManager.h">
+      <Filter>BotSource</Filter>
+    </ClInclude>
+    <ClInclude Include="BasicBot\WorkerManager.h">
+      <Filter>BotSource</Filter>
+    </ClInclude>
+    <ClInclude Include="BasicBot\MapTools.h">
+      <Filter>BotSource\DataStructure</Filter>
+    </ClInclude>
+    <ClInclude Include="BasicBot\MetaType.h">
+      <Filter>BotSource\DataStructure</Filter>
+    </ClInclude>
+    <ClInclude Include="BasicBot\UnitData.h">
+      <Filter>BotSource\DataStructure</Filter>
+    </ClInclude>
+    <ClInclude Include="BasicBot\WorkerData.h">
+      <Filter>BotSource\DataStructure</Filter>
+    </ClInclude>
+    <ClInclude Include="BasicBot\ConstructionTask.h">
+      <Filter>BotSource\DataStructure</Filter>
+    </ClInclude>
+    <ClInclude Include="BasicBot\BuildOrderQueue.h">
+      <Filter>BotSource\DataStructure</Filter>
+    </ClInclude>
+    <ClInclude Include="BasicBot\Common.h">
+      <Filter>BotSource\CommonUtil</Filter>
+    </ClInclude>
+    <ClInclude Include="BasicBot\Config.h">
+      <Filter>BotSource\CommonUtil</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="BotClient">
+      <UniqueIdentifier>{c8cb4e54-d671-49ab-96cc-8408316ab2bf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="BotSource">
+      <UniqueIdentifier>{295ff9ca-e7f5-4de0-ba47-19bbf0421850}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="BotSource\CommonUtil">
+      <UniqueIdentifier>{41c4e5e4-ae7a-4210-b97c-af7eb92ab673}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="BotSource\DataStructure">
+      <UniqueIdentifier>{2a115475-fe41-43d7-9253-35be6a33749a}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
